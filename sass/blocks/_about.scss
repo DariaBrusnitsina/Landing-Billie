@@ -1,0 +1,24 @@
+.about {
+    margin-bottom: 85px;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h3 {
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    p {
+        max-width: 622px;
+        text-align: center;
+        padding-top: 14px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,139 @@
+.footer {
+    background-color: #F4F5FE;
+}
+
+.footer_row {
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 980px) {
+        padding-right: 20px;
+    }
+
+    @media (max-width: 800px) {
+        flex-wrap: wrap;
+        column-gap: 60px;
+        
+        .about {
+            flex-direction: row;
+            padding-top: 20px;
+            column-gap: 50px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+
+        .navigation {
+            display: none;
+        }
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    h6 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    }
+
+    p, a {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 27px;
+    }
+
+    .inst {
+        padding-top: 30px;
+        fill: black;
+
+        &:hover {
+            fill: $accent-violet;
+        }
+    }
+
+    @media (max-width: 630px) {
+        margin-bottom: 20px;
+    }
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+
+    input {
+        width: 320px;
+
+        background-color: #F4F5FE;
+        border: none;
+        border-bottom: 2px solid $accent-violet;
+    }
+
+    button {
+        padding-top: 20px;
+
+        &:hover {
+            color: $accent-violet;
+        }
+    }
+
+    @media (max-width: 630px) {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 375px) {
+        input {
+            width: 250px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        input {
+            width: 210px;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .about_links {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .about_p {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 27px;
+    }
+}

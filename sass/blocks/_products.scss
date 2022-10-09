@@ -1,0 +1,144 @@
+.products {
+    background-color: $accent-background;
+    padding-bottom: 80px;
+}
+
+.products_nav {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-weight: 400;
+    }
+
+    @media (max-width: 980px) {
+        padding-top: 60px;
+    }
+}
+
+.products_row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+
+    @media (max-width: 800px) {
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (max-width: 700px) {
+        padding-top: 30px;
+        justify-content: center;
+    }
+}
+
+.item {
+    position: relative;
+    text-align: center;
+
+    a {
+        font-weight: 400;
+        font-size: 21px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    button {
+        margin-top: 140px;
+        
+        @media (max-width: 880px) {
+            margin-top: 100px;
+        }
+
+        @media (max-width: 880px) {
+            margin-top: 10px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.img {
+    position: relative;
+
+    img {
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 20px;
+
+        &:hover {
+            box-shadow: 0px 17px 42px $accent-violet
+        }
+
+        @media (max-width: 800px) {
+            width: 279px;
+        }
+
+        @media (max-width: 700px) {
+            width: 304px;
+        }
+
+    }
+
+    .inner-text-kit {
+        position: absolute;
+        right: 25%;
+        bottom: 5%;
+
+        @media (max-width: 880px) {
+            right: 20%;
+        }
+
+        @media (max-width: 800px) {
+            right: 30%;
+        }
+    }
+
+    .inner-text-salve {
+        position: absolute;
+        right: 50%;
+        bottom: 5%;
+
+        @media (max-width: 880px) {
+            right: 45%;
+        }
+
+    }
+}
+
+.item_awarded {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 25px;
+        background-repeat: no-repeat;
+        
+        width: 80px;
+        height: 80px;
+        background-image: url("/img/award.svg");
+
+        @media (max-width: 980px) {
+            background-size: 50px;
+        }
+
+        @media (max-width: 880px) {
+            background-size: 40px;
+            right: -15px;
+        }
+
+        @media (max-width: 800px) {
+            background-size: 80px;
+            right: 20px;
+        }
+    }   
+}
