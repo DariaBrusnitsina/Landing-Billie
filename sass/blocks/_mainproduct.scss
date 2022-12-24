@@ -4,8 +4,8 @@
 
 .mainproducts_row {
     display: flex;
-    justify-content: space-between;
-    column-gap: 20px;
+    justify-content: center;
+    column-gap: 100px;
 
     @media (max-width: 980px) {
         padding-top: 20px;

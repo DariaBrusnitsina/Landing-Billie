@@ -4,9 +4,10 @@
     background-repeat: no-repeat;
     background-size: 100%;
 
+
     @media (max-width: 425px) {
         background-size: 200%;
-    } 
+    }
 }
 
 .header_content {
@@ -14,8 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 220px;
-    padding-bottom: 358px;
+    padding: 255px 0;
 
     h1 {
         font-size: 55px;
