@@ -1,5 +1,3 @@
 # Responsive Landing Page Billie Razor with SCSS
-
-<img width="603" alt="Screenshot 2022-10-26 at 23 03 33" src="https://user-images.githubusercontent.com/108741883/198127394-e7aa0fe2-eda4-49c3-a4f2-dc0a962912e4.png">
-
-Go to GitHub Pages 👉 https://dariabrusnitsina.github.io/Landing-Billie/
+- Go to GitHub Pages 👉 https://dariabrusnitsina.github.io/Landing-Billie/
+<img width="384" alt="Screenshot 2022-12-24 at 16 17 37" src="https://user-images.githubusercontent.com/108741883/209437919-854a6047-9689-4d8f-8976-adcbd87b7b88.png">
